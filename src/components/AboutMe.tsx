@@ -12,9 +12,12 @@ export const AboutMe = ( ) => {
                 <CardTitle>About Me</CardTitle>
             </CardHeader>
             <CardContent>
-                <p className="text-muted-foreground">
-                    {/* Write 1-2 sentences about yourself */}
-                    I am a software engineer with a passion for building scalable and efficient web applications.
+                <p className="text-muted-foreground text-justify">
+                Desenvolvedor fullstack, destaco-me na criação de arquitetura e aplicações dinâmicas e amigáveis ao usuário, utilizando MERN stack (MongoDB, Express.js, React e Node.js).
+
+Proficiência em construção de interfaces web responsivas utilizando React, Next.js e JavaScript, frameworks como Tailwind CSS e criando componentes reutilizáveis, para tornar os sistemas mais fáceis de usar e gerenciar.
+
+Outras tecnologias na qual tenho conhecimento ou já tive experiência são Flask (Python), Github Actions, ESP-IDF, Bun, Wordpress, Open-Source AI Models, Jasmine e PyQt.
                 </p>
             </CardContent>
         </Card>

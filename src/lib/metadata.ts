@@ -1,12 +1,17 @@
 import { Metadata } from 'next'
 
-// TODO: Update metadata
 
 export function constructMetadata({
-  title = 'Chris Lonzo', // TODO: Add a custom title
-  description = "I am a software engineer with a passion for building scalable and efficient web applications.", // TODO: Add a custom description
-  image = '/thumbnail.png', // TODO: Add a custom image
-  icons = '/avatar.svg', // TODO: Add a custom icon
+  title = 'Vinícius Aarão', // TODO: Add a custom title
+  description = `desenvolvedor fullstack, destaco-me na criação de arquitetura e aplicações dinâmicas e amigáveis ao usuário, utilizando MERN stack (MongoDB, Express.js, React e Node.js).
+
+Proficiência em construção de interfaces web responsivas utilizando React, Next.js e JavaScript, mesmo que utilizando frameworks como Tailwind CSS e criando componentes reutilizáveis, para tornar os sistemas mais fáceis de usar e gerenciar.
+
+Meu compromisso se estende com a integrações de AI, middleware para sessão, cookies e autenticação utilizando JWT e passport.js, deployment, além de personalização de banco de dados e configurações de índices.
+
+Outras tecnologias na qual tenho conhecimento ou já tive experiência são Flask (Python), Github Actions, ESP-IDF, Bun, Wordpress, Open-Source AI Models, Jasmine e PyQt.`, // TODO: Add a custom description
+  image = '/', // TODO: Add a custom image
+  icons = '/', // TODO: Add a custom icon
   noIndex = false
 }: {
   title?: string
@@ -22,13 +27,6 @@ export function constructMetadata({
       title,
       description,
       images: [image]
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title,
-      description,
-      images: [image],
-      creator: '@chrislonzo'
     },
     icons,
     metadataBase: new URL('https://www.chrislonzo.com'),

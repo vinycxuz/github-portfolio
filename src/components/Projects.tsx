@@ -8,14 +8,14 @@ import { Card, CardContent } from "@/components/ui/card";
 export const projects = [
     {
         title: "E-commerce Platform",
-        description: "A full-stack e-commerce solution with React, Node.js, and MongoDB",
-        tech: "React",
+        description: "A full-stack e-commerce solution for cat's toys with Next.js, Node.js, and MongoDB",
+        tech: "Next.js",
         link: "#",
     },
     {
-        title: "Task Management App",
-        description: "A productivity app built with React Native and Firebase",
-        tech: "React Native",
+        title: "AI List",
+        description: "A consolidated list of AI resources and tools for developers, designers, and data scientists",
+        tech: "React",
         link: "#",
     },
     {
@@ -35,7 +35,7 @@ export const projects = [
 const techColors = {
     "React": "bg-blue-500",
     "React Native": "bg-green-500",
-    "Vue.js": "bg-purple-500",
+    "Next.js": "bg-purple-500",
     "Python": "bg-yellow-500",
 }
 

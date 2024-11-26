@@ -8,9 +8,9 @@ import { JobImages } from "@/components/JobImages";
 
 const jobs = [
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
-        logo: "/company.svg", // TODO: Replace with actual logo
+        role: "Senior Full-Stack Developer", 
+        company: "Tech Innovators Inc.", 
+        logo: "/company.svg", 
         duration: "2020 - Present",
         description:
             "Lead developer for multiple high-impact projects, mentoring junior developers, and implementing best practices.",
