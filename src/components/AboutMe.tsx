@@ -9,7 +9,7 @@ export const AboutMe = ( ) => {
     return (
         <Card className="mb-6">
             <CardHeader>
-                <CardTitle>About Me</CardTitle>
+                <CardTitle>Sobre Mim</CardTitle>
             </CardHeader>
             <CardContent>
                 <p className="text-muted-foreground text-justify">

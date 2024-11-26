@@ -16,7 +16,7 @@ export const projects = [
         title: "AI List",
         description: "A consolidated list of AI resources and tools for developers, designers, and data scientists",
         tech: "React",
-        link: "#",
+        link: "https://github.com/vinycxuz/listTools",
     },
     {
         title: "Data Visualization Dashboard",
@@ -43,7 +43,7 @@ export const Projects = () => {
     return (
         <>
             <h2 className="text-xl font-bold mb-4">
-                Featured Projects
+                Projetos Pessoais
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                 {projects.map((p, i) => (
@@ -53,6 +53,8 @@ export const Projects = () => {
                                 <Link
                                     href={p.link}
                                     className="font-semibold text-primary hover:underline"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     {p.title}
                                 </Link>
@@ -74,6 +76,8 @@ export const Projects = () => {
                                     <Link
                                         href={p.link}
                                         className="flex items-center gap-2 text-sm text-primary hover:underline"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                     >
                                         View Project
                                         <ExternalLink className="inline-block size-3" />
