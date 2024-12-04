@@ -18,18 +18,6 @@ export const projects = [
         tech: "React",
         link: "https://github.com/vinycxuz/listTools",
     },
-    {
-        title: "Data Visualization Dashboard",
-        description: "An interactive dashboard using D3.js and Vue.js",
-        tech: "Vue.js",
-        link: "#",
-    },
-    {
-        title: "AI Chatbot",
-        description: "A machine learning powered chatbot using Python and TensorFlow",
-        tech: "Python",
-        link: "#",
-    },
 ]
 
 const techColors = {
@@ -42,7 +30,7 @@ const techColors = {
 export const Projects = () => {
     return (
         <>
-            <h2 className="text-xl font-bold mb-4">
+            <h2 className="text-xl font-bold mb-4 mt-3">
                 Projetos Pessoais
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">

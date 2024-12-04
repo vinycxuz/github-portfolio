@@ -8,47 +8,61 @@ import { JobImages } from "@/components/JobImages";
 
 const jobs = [
     {
-        role: "Senior Full-Stack Developer", 
-        company: "Tech Innovators Inc.", 
-        logo: "/company.svg", 
-        duration: "2020 - Present",
+        role: "Freelancer Developer", 
+        company: "", 
+        logo:"", 
+        duration: "08/2023 - 12/2024",
         description:
-            "Lead developer for multiple high-impact projects, mentoring junior developers, and implementing best practices.",
-        link: "https://techinnovators.com",
+            "Atualmente estou produzindo um software para pdv e gestão de estoque em pré-contrato com 2 comércios da região e um e-commerce.",
+        link: "",
+        images: [
+        ],
+    },
+    {
+        role: "Full-Stack Developer", 
+        company: "We Heart Impact", 
+        logo: "", 
+        duration: "07/2024 - 09/2024",
+        description:
+            `Contratado para ajudar na criação do MVP de um chatbot AI voltado para pequenas e médias franquias, utilizando Postgre, MongoDB, AWS S3, Flask, Python, JavaScript, React. 
+             Dentre as tarefas realizadas estão permanência de sessão do usuário, autenticação e autorização de login, incluindo com o google, estilização de páginas e aplicação de responsividade, 
+             criação de controle de estado para melhorar a UX durante login e utilização do chat, implementação de alguns componentes react reutilizáveis, refatoração do código front-end.`,
+        link: "",
         images: [],
     },
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
-        logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2018 - 2020",
+        role: "Full-Stack Developer",
+        company: "LXP EAD",
+        logo: "",
+        duration: "09/2024",
         description:
-            "Developed and maintained various client projects, focusing on responsive design and performance optimization.",
-        link: "https://websolutions.com",
+            `Contratado para criação e edição de algumas páginas web. Utilizado Next.js, CSS module, Bootstrap, Swagger e Axios.
+             Dentre as tarefas realizadas: criação de tabela que realizava requisições de informações específicas de cada tipo de usuário, 
+             implementação de 3 telas incluindo para editor para envio de e-mail,
+             utilização de componentes reutilizáveis da base de dados já disponível da empresa.`,
+        link: "",
         images: [
-            "/devvault.png",
-            "/devvault.png",
+            
         ],
     },
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
-        logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2016 - 2018",
-        description:
-            "Assisted in the development of web applications, gained experience in agile methodologies and version control.",
-        link: "https://startupventures.com",
-        images: [
-            "/devvault.png",
-            "/devvault.png",
-        ],
-    },
+      role: "Outras experiências",
+      company: "",
+      logo: "",
+      duration: "2019 - 2023",
+      description:
+          `Trabalhei anterior como técnico em Eletronica, acompanahmento de projetos de TI, redes e analista de Suporte. Detalhes disponíveis no meu LinkedIn.`,
+      link: "",
+      images: [
+          
+      ],
+  },
 ]
 
 export const Experience = () => {
     return (
         <>
-            <h2 className="text-xl font-bold mb-4">Work Experience</h2>
+            <h2 className="text-xl font-bold mb-4">Experiências relevantes</h2>
             <Card>
                 <CardContent className="pt-6">
                     <ul className="space-y-8">
@@ -56,13 +70,6 @@ export const Experience = () => {
                             <li key={i} className="border-b last:border-b-0 pb-8 last:pb-0">
                                 {/* Job Details */}
                                 <div className="flex items-center space-x-4">
-                                    <Image
-                                        src={j.logo}
-                                        alt={j.company}
-                                        width={40}
-                                        height={40}
-                                        className="rounded-md border shadow-md object-cover"
-                                    />
                                     <div>
                                         <h3 className="font-semibold">
                                             {j.role}
@@ -76,7 +83,7 @@ export const Experience = () => {
                                     <CalendarDays className="size-3 mr-2"/>
                                     {j.duration}
                                 </p>
-                                <p className="text-sm mt-2">{j.description}</p>
+                                <p className="text-sm mt-2 text-justify">{j.description}</p>
                                 {/* Job Images */}
                                 <JobImages 
                                     role={j.role} 

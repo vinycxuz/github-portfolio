@@ -43,18 +43,18 @@ export const Profile = () => {
                         </div>
                     </div>
                     <p className="mt-2 text-start text-sm text-muted-foreground">
-                      Ofereço serviços de desenvolvimento de: <br />
-                      - E-commerce <br />
-                      - Integrações de APIs <br />
+                      Ofereço serviços de desenvolvimento como: <br />
+                      - Front-end em geral <br />
+                      - Integrações de APIs incluindo LLM<br />
                       - Chatbots <br />
-                      - Landing Pages <br />
-                      - Componentes Web <br />
-                      - Outras funcionalidades front-end e back-end <br />
+                      - Banco de Dados <br />
+                      - Autenticação e Autorização <br />
+                      Além de serviços de suporte e eletrônica <br />
                     </p>
                     <Button className="mt-4 w-full" asChild>
                         <Link
                             target="_blank"
-                            href="/resume.pdf"
+                            href="/"
                             className="font-semibold"
                         >
                             CONTATO
